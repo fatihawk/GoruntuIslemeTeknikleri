@@ -5,7 +5,7 @@ OpenCV kullanarak Python üzerinde Temel Görüntü işleme Tekniklerinin Uygula
 
 Gaussianların Karışımı( Mixture of Gaussians=MOG), statik kameralardan hareketli cisimleri saptamak için arkaplan modellemesi için yaygın olarak kullanılan bir yaklaşımdır.
 
-Ben de OpenCV destekli "createBackgroundSubtractorMOG2()"fonksiyonuyla alınan bir görüntü üzerindeki hareketli nesneleri tespit etmek için kullanılan filtreleme işlemini yaptım.
+Ben de OpenCV destekli "createBackgroundSubtractorMOG2()"fonksiyonu yardımıyla alınan bir görüntü üzerindeki hareketli nesneleri tespit etmek için kullanılan filtreleme işlemini yaptım.
 
 NOT:Eğer alınan bir görüntü üzerinde bu işlemi yapmak istiyorsanız,elinizdeki bu görüntüleri proje dosyasına atmalısınız.
 
@@ -45,7 +45,7 @@ Ben bu uygulamada aynı girişlere sahip bir PC görseli aldım.
 
 Burada önemli olan eşleştirmek istediğimiz nesnenin şablonda birden fazla ve aynı şekilde yer alması.
 
-Ben bu uygulamada OpenCV'nin "cv2.matchTemplate()" fonksiyonunu kullanarak gerçekleştirdim.
+Ben bu uygulamada OpenCV'nin "cv2.matchTemplate()" fonksiyonunu kullanarak eşleştirme yaptım.
 
 Burada Threshold değerini değiştirerek eşleşme doğruluğunu kontrol edebiliriz.
 
@@ -66,6 +66,21 @@ Burada algılama ile ilgileneceğiz. OpenCV zaten yüz, gözler, gülümsemeler 
 Sonrasında görüntüdeki yüzleri buluyoruz. Yüzler bulunursa, algılanan yüzlerin pozisyonlarını Rect (x, y, w, h) olarak döndürür. Bu konumlara ulaştıktan sonra, yüz için bir ROI oluşturabilir ve bu ROI'ye göz algılama uygulayabiliriz.
 
 Burada yapılan uygulamada önceden kaydedilmiş bir görüntü kullanılmadı.Webcam kullanarak anlık yüz ve göz tanıma işlemi yapıldı.Dolayısıyla hassasiyeti belirleyen çok fazla parametre var.Bunu da dikkate almak gerekir.
+
+5-Özellik Eşleştirme(Homography)
+
+Özellik eşleme, mükemmel eşleşmenin gerekli olduğu şablon eşleştirmenin(template matching) biraz daha etkileyici bir sürümü olacak.
+
+Bulmayı umduğumuz resimle başlıyoruz ve sonra bu resmi başka bir resim içinde arayabiliyoruz. Buradaki fark yaratıcı kısım, görüntünün aynı ışıklandırma, açı, dönüş vb. olması gerekmez. Özelliklerin sadece eşleşmesi gerekiyor.
+
+Başlamak için bazı örnek resimlere ihtiyacımız var. Bizim "şablon" veya resmimizle eşleşmeye çalışacağız:
+
+Burada, şablon resmimiz, şablonda arayacağımız resimden biraz daha küçük. Aynı zamanda farklı bir rotasyon ve bazı farklı gölgeler yok ama eğer bu özelliklere sahip başka görseller olursa daha iyi sonuçlar alabiliriz.
+
+Şimdi bir ""brute force" eşleştirme şekli kullanacağız. Her iki resimdeki tüm özellikleri bulacağız. Sonra bu özellikleri eşleştiriyoruz. Daha sonra istediğimiz kadar çekip çıkarabiliriz. Yine de dikkatli olmakta fayda var çünkü 500 eşleşme söylersek, birçok yanlış pozitif elde edebiliriz.
+
+Burada eşleştirme işlemini "cv2.drawMatches()"fonksiyonunu kullanarak gerçekleştirdim.
+
 
 
 
