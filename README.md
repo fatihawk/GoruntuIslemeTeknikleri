@@ -99,6 +99,10 @@ Bu yüzden biz burada birkaç parametre aldık ve cv2.grabCut kullandık.
 
 Önce giriş görüntüsü, ardından maske, sonra ana nesnemiz için dikdörtgen, arka plan modeli, ön plan modeli, çalıştırılacak yineleme miktarı ve hangi modu kullandığımızı belirtiyoruz.
 
+7-Yeşil renkli nesne algılama uygulaması
+
+
+
 
 
 
