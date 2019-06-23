@@ -50,7 +50,7 @@ Bilgisayarla görme tekniklerini kullanarak yeşil renkli nesneleri takip eden b
 
 Bu uygulamayı yaparken çeşitli github projelerinden ve blog yazılarından faydalandım.
 
-# 8-Thresholding Uygulaması
+# 8-Threshold Uygulaması
 
 Giriş olarak verilen görüntüyü ikili görüntüye çevirmek için kullanılan bir yöntemdir.
 
