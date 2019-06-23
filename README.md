@@ -101,6 +101,11 @@ Bu yüzden biz burada birkaç parametre aldık ve cv2.grabCut kullandık.
 
 7-Yeşil renkli nesne algılama uygulaması
 
+Bilgisayarla görme tekniklerini kullanarak yeşil renkli nesneleri takip eden bir uygulama.
+
+Bu uygulamayı yaparken çeşitli github projelerinden ve blog yazılarından faydalandım.
+
+
 
 
 
