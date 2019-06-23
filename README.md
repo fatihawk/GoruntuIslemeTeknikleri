@@ -34,13 +34,7 @@ Burada algılama ile ilgileneceğiz. OpenCV zaten yüz, gözler, gülümsemeler 
 
 Bulmayı umduğumuz resimle başlıyoruz ve sonra bu resmi başka bir resim içinde arayabiliyoruz. Buradaki fark yaratıcı kısım, görüntünün aynı ışıklandırma, açı, dönüş vb. olması gerekmez. Özelliklerin sadece eşleşmesi gerekiyor.
 
-Başlamak için bazı örnek resimlere ihtiyacımız var. Bizim "şablon" veya resmimizle eşleşmeye çalışacağız:
-
-Burada, şablon resmimiz, şablonda arayacağımız resimden biraz daha küçük. Aynı zamanda farklı bir rotasyon ve bazı farklı gölgeler yok ama eğer bu özelliklere sahip başka görseller olursa daha iyi sonuçlar alabiliriz.
-
-Şimdi bir ""brute force" eşleştirme şekli kullanacağız. Her iki resimdeki tüm özellikleri bulacağız. Sonra bu özellikleri eşleştiriyoruz. Daha sonra istediğimiz kadar çekip çıkarabiliriz. Yine de dikkatli olmakta fayda var çünkü 500 eşleşme söylersek, birçok yanlış pozitif elde edebiliriz.
-
-Burada eşleştirme işlemini "cv2.drawMatches()"fonksiyonunu kullanarak gerçekleştirdim.
+Burada eşleştirme işlemini OpenCV'nin "cv2.drawMatches()"fonksiyonunu kullanarak gerçekleştirdim.
 
 6-Grabcut Ön Plan Çıkarma
 
