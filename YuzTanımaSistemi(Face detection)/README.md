@@ -1,17 +1,17 @@
-Yüz Tanıma Sistemi(Face detection)
+# YÃ¼z TanÄ±ma Sistemi(Face detection)
 
-Haar özellik tabanlı kaskad sınıflandırıcılarını kullanarak Nesne Tespiti, Paul Viola ve Michael Jones tarafından 2001 yılında "Basit Özellikler Kaskadını Kullanarak Hızlı Nesne Tespiti" başlıklı makalesinde önerilen etkili bir nesne algılama yöntemidir.
+Haar Ã¶zellik tabanlÄ± kaskad sÄ±nÄ±flandÄ±rÄ±cÄ±larÄ±nÄ± kullanarak Nesne Tespiti, Paul Viola ve Michael Jones tarafÄ±ndan 2001 yÄ±lÄ±nda "Basit Ã–zellikler KaskadÄ±nÄ± Kullanarak HÄ±zlÄ± Nesne Tespiti" baÅŸlÄ±klÄ± makalesinde Ã¶nerilen etkili bir nesne algÄ±lama yÃ¶ntemidir.
 
-Kaskad işlevi, birçok olumlu ve olumsuz görüntüden eğitilmiştir. Daha sonra diğer resimlerdeki nesneleri tespit etmek için kullanılır.
+Kaskad iÅŸlevi, birÃ§ok olumlu ve olumsuz gÃ¶rÃ¼ntÃ¼den eÄŸitilmiÅŸtir. Daha sonra diÄŸer resimlerdeki nesneleri tespit etmek iÃ§in kullanÄ±lÄ±r.
 
-Burada yüz tanıma ile çalıştım.
+Burada yÃ¼z tanÄ±ma ile Ã§alÄ±ÅŸtÄ±m.
 
-OpenCV dedektörün yanı sıra bir eğitmen ile birlikte gelir. Kendi sınıflandırıcımızı, araba, uçak vb. Herhangi bir nesne için eğitmek istiyorsak, bir tane oluşturmak için OpenCV kullanabiliriz.
+OpenCV dedektÃ¶rÃ¼n yanÄ± sÄ±ra bir eÄŸitmen ile birlikte gelir. Kendi sÄ±nÄ±flandÄ±rÄ±cÄ±mÄ±zÄ±, araba, uÃ§ak vb. Herhangi bir nesne iÃ§in eÄŸitmek istiyorsak, bir tane oluÅŸturmak iÃ§in OpenCV kullanabiliriz.
 
-Burada algılama ile ilgileneceğiz. OpenCV zaten yüz, gözler, gülümsemeler vb. İçin önceden eğitilmiş sınıflandırıcıları içerir. Bu XML dosyaları opencv / data / haarcascades / klasöründe depolanır. OpenCV ile bir yüz ve göz dedektörü oluşturdum.
+Burada algÄ±lama ile ilgileneceÄŸiz. OpenCV zaten yÃ¼z, gÃ¶zler, gÃ¼lÃ¼msemeler vb. Ä°Ã§in Ã¶nceden eÄŸitilmiÅŸ sÄ±nÄ±flandÄ±rÄ±cÄ±larÄ± iÃ§erir. Bu XML dosyalarÄ± opencv / data / haarcascades / klasÃ¶rÃ¼nde depolanÄ±r. OpenCV ile bir yÃ¼z ve gÃ¶z dedektÃ¶rÃ¼ oluÅŸturdum.
 
-Öncelikle gerekli XML sınıflandırıcılarını yüklememiz gerekiyor. Ardından giriş resmimizi (veya videomuzu) gri tonlamalı modda yükledim.
+Ã–ncelikle gerekli XML sÄ±nÄ±flandÄ±rÄ±cÄ±larÄ±nÄ± yÃ¼klememiz gerekiyor. ArdÄ±ndan giriÅŸ resmimizi (veya videomuzu) gri tonlamalÄ± modda yÃ¼kledim.
 
-Sonrasında görüntüdeki yüzleri buluyoruz. Yüzler bulunursa, algılanan yüzlerin pozisyonlarını Rect (x, y, w, h) olarak döndürür. Bu konumlara ulaştıktan sonra, yüz için bir ROI oluşturabilir ve bu ROI'ye göz algılama uygulayabiliriz.
+SonrasÄ±nda gÃ¶rÃ¼ntÃ¼deki yÃ¼zleri buluyoruz. YÃ¼zler bulunursa, algÄ±lanan yÃ¼zlerin pozisyonlarÄ±nÄ± Rect (x, y, w, h) olarak dÃ¶ndÃ¼rÃ¼r. Bu konumlara ulaÅŸtÄ±ktan sonra, yÃ¼z iÃ§in bir ROI oluÅŸturabilir ve bu ROI'ye gÃ¶z algÄ±lama uygulayabiliriz.
 
-Burada yapılan uygulamada önceden kaydedilmiş bir görüntü kullanılmadı.Webcam kullanarak anlık yüz ve göz tanıma işlemi yapıldı.Dolayısıyla hassasiyeti belirleyen çok fazla parametre var.Bunu da dikkate almak gerekir.
+Burada yapÄ±lan uygulamada Ã¶nceden kaydedilmiÅŸ bir gÃ¶rÃ¼ntÃ¼ kullanÄ±lmadÄ±.Webcam kullanarak anlÄ±k yÃ¼z ve gÃ¶z tanÄ±ma iÅŸlemi yapÄ±ldÄ±.DolayÄ±sÄ±yla hassasiyeti belirleyen Ã§ok fazla parametre var.Bunu da dikkate almak gerekir.
