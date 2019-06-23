@@ -1,6 +1,10 @@
-Ben de OpenCV destekli "createBackgroundSubtractorMOG2()"fonksiyonu yardımıyla alınan bir görüntü üzerindeki hareketli nesneleri tespit etmek için kullanılan filtreleme işlemini yaptım.
+# GÃ¶rÃ¼ntÃ¼ Ã¼zerinde MOG filtresinin uygulanmasÄ±
 
-NOT:Eğer alınan bir görüntü üzerinde bu işlemi yapmak istiyorsanız,elinizdeki bu görüntüleri proje dosyasına atmalısınız.
+GaussianlarÄ±n KarÄ±ÅŸÄ±mÄ±( Mixture of Gaussians=MOG), statik kameralardan hareketli cisimleri saptamak iÃ§in arkaplan modellemesi iÃ§in yaygÄ±n olarak kullanÄ±lan bir yaklaÅŸÄ±mdÄ±r.
 
-Test1:Video içinde seçilmiş orijinal video görüntüsü.
-Test2:MOG uygulanmış video görüntüsü.
+Ben de OpenCV destekli "createBackgroundSubtractorMOG2()"fonksiyonu yardÄ±mÄ±yla alÄ±nan bir gÃ¶rÃ¼ntÃ¼ Ã¼zerindeki hareketli nesneleri tespit etmek iÃ§in kullanÄ±lan filtreleme iÅŸlemini yaptÄ±m.
+
+NOT:EÄŸer alÄ±nan bir gÃ¶rÃ¼ntÃ¼ Ã¼zerinde bu iÅŸlemi yapmak istiyorsanÄ±z,elinizdeki bu gÃ¶rÃ¼ntÃ¼leri proje dosyasÄ±na atmalÄ±sÄ±nÄ±z.
+
+Test1:Video iÃ§inde seÃ§ilmiÅŸ orijinal video gÃ¶rÃ¼ntÃ¼sÃ¼.
+Test2:MOG uygulanmÄ±ÅŸ video gÃ¶rÃ¼ntÃ¼sÃ¼.
