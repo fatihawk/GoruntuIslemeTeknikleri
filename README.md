@@ -50,6 +50,14 @@ Bilgisayarla görme tekniklerini kullanarak yeşil renkli nesneleri takip eden b
 
 Bu uygulamayı yaparken çeşitli github projelerinden ve blog yazılarından faydalandım.
 
+# 8-Thresholding Uygulaması
+
+Giriş olarak verilen görüntüyü ikili görüntüye çevirmek için kullanılan bir yöntemdir.
+
+İkili görüntü (binary), görüntünün siyah ve beyaz olarak tanımlanmasıdır.
+
+Morfolojik operatörler gibi görüntü üzerindeki gürültüleri azaltmak veya nesne belirlemek gibi farklı amaçlar için kullanılır.
+
 
 
 
