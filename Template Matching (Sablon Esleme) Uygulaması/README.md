@@ -1,17 +1,17 @@
-Template Matching Uygulaması
+# Template Matching UygulamasÄ±
 
-Buradaki fikir, sağladığımız şablonla eşleşen ve belirli bir eşik değeri veren bir görüntünün aynı bölgelerini bulmaktır.
+Buradaki fikir, saÄŸladÄ±ÄŸÄ±mÄ±z ÅŸablonla eÅŸleÅŸen ve belirli bir eÅŸik deÄŸeri veren bir gÃ¶rÃ¼ntÃ¼nÃ¼n aynÄ± bÃ¶lgelerini bulmaktÄ±r.
 
-Kesin nesne eşleşmeleri için, tam aydınlatma / ölçek / açı ile, bu sistem daha verimli çalışabilir. 
+Kesin nesne eÅŸleÅŸmeleri iÃ§in, tam aydÄ±nlatma / Ã¶lÃ§ek / aÃ§Ä± ile, bu sistem daha verimli Ã§alÄ±ÅŸabilir. 
 
-Bu koşulların genellikle karşılandığı bir örnek, bilgisayardaki herhangi bir GUI ile ilgilidir. Düğmeler ve benzeri öğeler her zaman aynıdır, böylece şablon eşleştirmesini kullanabiliriz.
+Bu koÅŸullarÄ±n genellikle karÅŸÄ±landÄ±ÄŸÄ± bir Ã¶rnek, bilgisayardaki herhangi bir GUI ile ilgilidir. DÃ¼ÄŸmeler ve benzeri Ã¶ÄŸeler her zaman aynÄ±dÄ±r, bÃ¶ylece ÅŸablon eÅŸleÅŸtirmesini kullanabiliriz.
 
-Başlamak için bir ana görüntüye ve bir şablona ihtiyacımız olacak. Şablonunuzu, görüntüde tam olarak aradığınız "şey" den almalıyız.
+BaÅŸlamak iÃ§in bir ana gÃ¶rÃ¼ntÃ¼ye ve bir ÅŸablona ihtiyacÄ±mÄ±z olacak. Åablonunuzu, gÃ¶rÃ¼ntÃ¼de tam olarak aradÄ±ÄŸÄ±nÄ±z "ÅŸey" den almalÄ±yÄ±z.
 
-Ben bu uygulamada aynı girişlere sahip bir PC görseli aldım.
+Ben bu uygulamada aynÄ± giriÅŸlere sahip bir PC gÃ¶rseli aldÄ±m.
 
-Burada önemli olan eşleştirmek istediğimiz nesnenin şablonda birden fazla ve aynı şekilde yer alması.
+Burada Ã¶nemli olan eÅŸleÅŸtirmek istediÄŸimiz nesnenin ÅŸablonda birden fazla ve aynÄ± ÅŸekilde yer almasÄ±.
 
-Ben bu uygulamada OpenCV'nin "cv2.matchTemplate()" fonksiyonunu kullanarak eşleştirme yaptım.
+Ben bu uygulamada OpenCV'nin "cv2.matchTemplate()" fonksiyonunu kullanarak eÅŸleÅŸtirme yaptÄ±m.
 
-Burada Threshold değerini değiştirerek eşleşme doğruluğunu kontrol edebiliriz.
+Burada Threshold deÄŸerini deÄŸiÅŸtirerek eÅŸleÅŸme doÄŸruluÄŸunu kontrol edebiliriz.
