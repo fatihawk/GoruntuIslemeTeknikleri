@@ -1,4 +1,4 @@
-# Goruntu İşleme Teknikleri
+# Gorüntü İşleme Teknikleri
 
 # OpenCV kullanarak Python üzerinde Temel Görüntü işleme Tekniklerinin Uygulanması
 
