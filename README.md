@@ -14,7 +14,7 @@ Canny kenar dedektörü, görüntülerdeki çok çeşitli kenarları algılamak 
 
 Ben bu uygulamada aynı şekilde OpenCV kütüphanesi yardımıyla "cv2.Canny()"fonksiyonunu kullanarak alınan canlı görüntü üzerinde bir kenar belirleme uygulaması yaptım.
 
-3. Template Matching Uygulaması
+[3. Template Matching Uygulaması](https://github.com/fatihawk/GoruntuIslemeTeknikleri/tree/master/Template%20Matching%20(Sablon%20Esleme)%20Uygulamas%C4%B1)
 
 Buradaki fikir, sağladığımız şablonla eşleşen ve belirli bir eşik değeri veren bir görüntünün aynı bölgelerini bulmaktır.
 
@@ -22,13 +22,13 @@ Burada önemli olan eşleştirmek istediğimiz nesnenin şablonda birden fazla v
 
 Ben bu uygulamada OpenCV'nin "cv2.matchTemplate()" fonksiyonunu kullanarak eşleştirme yaptım.
 
-4. Yüz Tanıma Sistemi(Face detection)
+[4. Yüz Tanıma Sistemi(Face detection)](https://github.com/fatihawk/GoruntuIslemeTeknikleri/tree/master/YuzTan%C4%B1maSistemi(Face%20detection))
 
 Haar özellik tabanlı kaskad sınıflandırıcılarını kullanarak Nesne Tespiti, Paul Viola ve Michael Jones tarafından 2001 yılında "Basit Özellikler Kaskadını Kullanarak Hızlı Nesne Tespiti" başlıklı makalesinde önerilen etkili bir nesne algılama yöntemidir.
 
 Burada algılama ile ilgileneceğiz. OpenCV zaten yüz, gözler, gülümsemeler vb. İçin önceden eğitilmiş sınıflandırıcıları içerir. Bu XML dosyaları opencv / data / haarcascades / klasöründe depolanır. OpenCV ile bir yüz ve göz dedektörü oluşturdum.
 
-5. Özellik Eşleştirme(Homography)
+[5. Özellik Eşleştirme(Homography)](https://github.com/fatihawk/GoruntuIslemeTeknikleri/tree/master/%C3%96zellik%20E%C5%9Fle%C5%9Ftirme(Homography))
 
 Özellik eşleme, mükemmel eşleşmenin gerekli olduğu şablon eşleştirmenin(template matching) biraz daha etkileyici bir sürümü olacak.
 
@@ -36,7 +36,7 @@ Bulmayı umduğumuz resimle başlıyoruz ve sonra bu resmi başka bir resim içi
 
 Burada eşleştirme işlemini OpenCV'nin "cv2.drawMatches()"fonksiyonunu kullanarak gerçekleştirdim.
 
-6. Grabcut Ön Plan Çıkarma
+[6. Grabcut Ön Plan Çıkarma](https://github.com/fatihawk/GoruntuIslemeTeknikleri/tree/master/Grabcut%20%C3%96n%20Plan%20%C3%87%C4%B1karma)
 
 Buradaki amaç ön planı bulmak ve arka planı kaldırmaktır.
 
@@ -44,13 +44,13 @@ Bu bir yeşil ekranın yaptığını yapacağız.Sadece burada yeşil ekrana iht
 
 Buradaki koordinatlar bu görsele ait.Farklı görseller için farklı görseller kullanmak gerekir.
 
-7. Yeşil renkli nesne algılama uygulaması
+[7. Yeşil renkli nesne algılama uygulaması](https://github.com/fatihawk/GoruntuIslemeTeknikleri/tree/master/Ye%C5%9Fil%20renkli%20nesne%20alg%C4%B1lama%20uygulmas%C4%B1)
 
 Bilgisayarla görme tekniklerini kullanarak yeşil renkli nesneleri takip eden bir uygulama.
 
 Bu uygulamayı yaparken çeşitli github projelerinden ve blog yazılarından faydalandım.
 
-8. Threshold Uygulaması
+[8. Threshold Uygulaması](https://github.com/fatihawk/GoruntuIslemeTeknikleri/tree/master/Threshold%20Uygulamas%C4%B1)
 
 Giriş olarak verilen görüntüyü ikili görüntüye çevirmek için kullanılan bir yöntemdir.
 
