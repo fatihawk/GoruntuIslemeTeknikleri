@@ -8,7 +8,7 @@ Gaussianların Karışımı( Mixture of Gaussians=MOG), statik kameralardan hare
 
 Ben de OpenCV destekli "createBackgroundSubtractorMOG2()"fonksiyonu yardımıyla alınan bir görüntü üzerindeki hareketli nesneleri tespit etmek için kullanılan filtreleme işlemini yaptım.
 
-2. CannyEdge Uygulaması
+[2. CannyEdge Uygulaması](https://github.com/fatihawk/GoruntuIslemeTeknikleri/tree/master/CannyEdge%20Uygulamas%C4%B1)
 
 Canny kenar dedektörü, görüntülerdeki çok çeşitli kenarları algılamak için çok aşamalı bir algoritma kullanan bir kenar algılama operatörüdür.
 
