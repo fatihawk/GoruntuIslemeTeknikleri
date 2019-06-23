@@ -15,3 +15,5 @@ Bu algoritma 5 aşamadan oluşur.
 5. Histeresiz ile Kenar Takibi:Eşik sonuçlarına dayanarak, histerezis, zayıf pikselleri güçlü olanlara dönüştürmekten ibarettir.
 
 Ben bu uygulamada aynı şekilde OpenCV kütüphanesi yardımıyla "cv2.Canny()"fonksiyonunu kullanarak alınan canlı görüntü üzerinde bir kenar belirleme uygulaması yaptım.
+
+![alt text](https://github.com/fatihawk/GoruntuIslemeTeknikleri/blob/master/CannyEdge%20Uygulamas%C4%B1/Kenar.png)
