@@ -1,22 +1,22 @@
 
-Threshold Uygulaması
+# Threshold UygulamasÄ±
 
-Giriş olarak verilen görüntüyü ikili görüntüye çevirmek için kullanılan bir yöntemdir.
+GiriÅŸ olarak verilen gÃ¶rÃ¼ntÃ¼yÃ¼ ikili gÃ¶rÃ¼ntÃ¼ye Ã§evirmek iÃ§in kullanÄ±lan bir yÃ¶ntemdir.
 
-İkili görüntü (binary), görüntünün siyah ve beyaz olarak tanımlanmasıdır.
+Ä°kili gÃ¶rÃ¼ntÃ¼ (binary), gÃ¶rÃ¼ntÃ¼nÃ¼n siyah ve beyaz olarak tanÄ±mlanmasÄ±dÄ±r.
 
-Morfolojik operatörler gibi görüntü üzerindeki gürültüleri azaltmak veya nesne belirlemek gibi farklı amaçlar için kullanılır.
+Morfolojik operatÃ¶rler gibi gÃ¶rÃ¼ntÃ¼ Ã¼zerindeki gÃ¼rÃ¼ltÃ¼leri azaltmak veya nesne belirlemek gibi farklÄ± amaÃ§lar iÃ§in kullanÄ±lÄ±r.
 
-Giriş olarak verilen görüntü üzerinde uygulanan thresholding tipine bağlı olarak, pikselleri verilen eşik değerine göre siyah ya da beyaz olarak günceller.
+GiriÅŸ olarak verilen gÃ¶rÃ¼ntÃ¼ Ã¼zerinde uygulanan thresholding tipine baÄŸlÄ± olarak, pikselleri verilen eÅŸik deÄŸerine gÃ¶re siyah ya da beyaz olarak gÃ¼nceller.
 
-Eğer piksel değeri bir eşik değerden büyükse, bir değere (beyaz olabilir), başka bir değere (siyah olabilir) atanır.
+EÄŸer piksel deÄŸeri bir eÅŸik deÄŸerden bÃ¼yÃ¼kse, bir deÄŸere (beyaz olabilir), baÅŸka bir deÄŸere (siyah olabilir) atanÄ±r.
 
-Kullanılan işlev cv2.threshold'dır.
+KullanÄ±lan iÅŸlev cv2.threshold'dÄ±r.
 
-İlk argüman gri tonlamalı olması gereken kaynak görüntüsüdür.Yani uygulamaya başlarken ilk yapılan görseli gri tonlamalı görüntüye çevirmektir.
+Ä°lk argÃ¼man gri tonlamalÄ± olmasÄ± gereken kaynak gÃ¶rÃ¼ntÃ¼sÃ¼dÃ¼r.Yani uygulamaya baÅŸlarken ilk yapÄ±lan gÃ¶rseli gri tonlamalÄ± gÃ¶rÃ¼ntÃ¼ye Ã§evirmektir.
 
-İkinci argüman, piksel değerlerini sınıflandırmak için kullanılan eşik değeridir.
+Ä°kinci argÃ¼man, piksel deÄŸerlerini sÄ±nÄ±flandÄ±rmak iÃ§in kullanÄ±lan eÅŸik deÄŸeridir.
 
-Üçüncü argüman, piksel değeri eşik değerden daha büyükse (bazen daha azsa) verilecek değeri temsil eden maxVal'dir.
+ÃœÃ§Ã¼ncÃ¼ argÃ¼man, piksel deÄŸeri eÅŸik deÄŸerden daha bÃ¼yÃ¼kse (bazen daha azsa) verilecek deÄŸeri temsil eden maxVal'dir.
 
-OpenCV farklı eşikleme stilleri sağlar ve fonksiyonun dördüncü parametresi tarafından karar verilir. 
+OpenCV farklÄ± eÅŸikleme stilleri saÄŸlar ve fonksiyonun dÃ¶rdÃ¼ncÃ¼ parametresi tarafÄ±ndan karar verilir. 
