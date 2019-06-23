@@ -1,13 +1,13 @@
-Özellik Eşleştirme(Homography)
+# Ã–zellik EÅŸleÅŸtirme(Homography)
 
-Özellik eşleme, mükemmel eşleşmenin gerekli olduğu şablon eşleştirmenin(template matching) biraz daha etkileyici bir sürümü olacak.
+Ã–zellik eÅŸleme, mÃ¼kemmel eÅŸleÅŸmenin gerekli olduÄŸu ÅŸablon eÅŸleÅŸtirmenin(template matching) biraz daha etkileyici bir sÃ¼rÃ¼mÃ¼ olacak.
 
-Bulmayı umduğumuz resimle başlıyoruz ve sonra bu resmi başka bir resim içinde arayabiliyoruz. Buradaki fark yaratıcı kısım, görüntünün aynı ışıklandırma, açı, dönüş vb. olması gerekmez. Özelliklerin sadece eşleşmesi gerekiyor.
+BulmayÄ± umduÄŸumuz resimle baÅŸlÄ±yoruz ve sonra bu resmi baÅŸka bir resim iÃ§inde arayabiliyoruz. Buradaki fark yaratÄ±cÄ± kÄ±sÄ±m, gÃ¶rÃ¼ntÃ¼nÃ¼n aynÄ± Ä±ÅŸÄ±klandÄ±rma, aÃ§Ä±, dÃ¶nÃ¼ÅŸ vb. olmasÄ± gerekmez. Ã–zelliklerin sadece eÅŸleÅŸmesi gerekiyor.
 
-Başlamak için bazı örnek resimlere ihtiyacımız var. Bizim "şablon" veya resmimizle eşleşmeye çalışacağız:
+BaÅŸlamak iÃ§in bazÄ± Ã¶rnek resimlere ihtiyacÄ±mÄ±z var. Bizim "ÅŸablon" veya resmimizle eÅŸleÅŸmeye Ã§alÄ±ÅŸacaÄŸÄ±z:
 
-Burada, şablon resmimiz, şablonda arayacağımız resimden biraz daha küçük. Aynı zamanda farklı bir rotasyon ve bazı farklı gölgeler yok ama eğer bu özelliklere sahip başka görseller olursa daha iyi sonuçlar alabiliriz.
+Burada, ÅŸablon resmimiz, ÅŸablonda arayacaÄŸÄ±mÄ±z resimden biraz daha kÃ¼Ã§Ã¼k. AynÄ± zamanda farklÄ± bir rotasyon ve bazÄ± farklÄ± gÃ¶lgeler yok ama eÄŸer bu Ã¶zelliklere sahip baÅŸka gÃ¶rseller olursa daha iyi sonuÃ§lar alabiliriz.
 
-Bu uygulamada bir ""brute force" eşleştirme şekli kullanacağız. Her iki resimdeki tüm özellikleri bulacağız. Sonra bu özellikleri eşleştiriyoruz. Daha sonra istediğimiz kadar çekip çıkarabiliriz. Yine de dikkatli olmakta fayda var çünkü 500 eşleşme söylersek, birçok yanlış elde edebiliriz.
+Bu uygulamada bir ""brute force" eÅŸleÅŸtirme ÅŸekli kullanacaÄŸÄ±z. Her iki resimdeki tÃ¼m Ã¶zellikleri bulacaÄŸÄ±z. Sonra bu Ã¶zellikleri eÅŸleÅŸtiriyoruz. Daha sonra istediÄŸimiz kadar Ã§ekip Ã§Ä±karabiliriz. Yine de dikkatli olmakta fayda var Ã§Ã¼nkÃ¼ 500 eÅŸleÅŸme sÃ¶ylersek, birÃ§ok yanlÄ±ÅŸ elde edebiliriz.
 
-Burada eşleştirme işlemini "cv2.drawMatches()"fonksiyonunu kullanarak gerçekleştirdim.
+Burada eÅŸleÅŸtirme iÅŸlemini OpenCV'nin "cv2.drawMatches()"fonksiyonunu kullanarak gerÃ§ekleÅŸtirdim.
