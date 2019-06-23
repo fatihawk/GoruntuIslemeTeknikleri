@@ -15,3 +15,10 @@ Buradaki koordinatlar bu görsele ait.Farklı görseller için farklı görselle
 Bu yüzden biz burada birkaç parametre aldık ve cv2.grabCut kullandık.
 
 Önce giriş görüntüsü, ardından maske, sonra ana nesnemiz için dikdörtgen, arka plan modeli, ön plan modeli, çalıştırılacak yineleme miktarı ve hangi modu kullandığımızı belirtiyoruz.
+
+
+
+![alt text](https://github.com/fatihawk/GoruntuIslemeTeknikleri/blob/master/Grabcut%20%C3%96n%20Plan%20%C3%87%C4%B1karma/saat_test.jpg)
+
+
+![alt text](https://github.com/fatihawk/GoruntuIslemeTeknikleri/blob/master/Grabcut%20%C3%96n%20Plan%20%C3%87%C4%B1karma/Sonuc.png)
