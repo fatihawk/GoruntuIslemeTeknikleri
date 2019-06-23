@@ -1,17 +1,17 @@
-Grabcut Ön Plan Çıkarma
+# Grabcut Ã–n Plan Ã‡Ä±karma
 
-Buradaki amaç ön planı bulmak ve arka planı kaldırmaktır.
+Buradaki amaÃ§ Ã¶n planÄ± bulmak ve arka planÄ± kaldÄ±rmaktÄ±r.
 
-Bu bir yeşil ekranın yaptığını yapacağız.Sadece burada yeşil ekrana ihtiyacımız olmayacak.
+Bu bir yeÅŸil ekranÄ±n yaptÄ±ÄŸÄ±nÄ± yapacaÄŸÄ±z.Sadece burada yeÅŸil ekrana ihtiyacÄ±mÄ±z olmayacak.
 
-İlk başta cv2, numpy ve matplotlib'i içe aktardık.
+Ä°lk baÅŸta cv2, numpy ve matplotlib'i iÃ§e aktardÄ±k.
 
-Sonra görüntüyü yüklüyoruz, maske oluşturuyoruz, algoritmanın dahili olarak kullandığı arkaplan ve ön plan modelini belirtiyoruz.
+Sonra gÃ¶rÃ¼ntÃ¼yÃ¼ yÃ¼klÃ¼yoruz, maske oluÅŸturuyoruz, algoritmanÄ±n dahili olarak kullandÄ±ÄŸÄ± arkaplan ve Ã¶n plan modelini belirtiyoruz.
 
-Asıl önemli kısım tanımladığımız doğrultudur. Bu rect = (start_x, start_y, width, height).Ana nesneyi çevreleyen dikdörtgen budur.
+AsÄ±l Ã¶nemli kÄ±sÄ±m tanÄ±mladÄ±ÄŸÄ±mÄ±z doÄŸrultudur. Bu rect = (start_x, start_y, width, height).Ana nesneyi Ã§evreleyen dikdÃ¶rtgen budur.
 
-Buradaki koordinatlar bu görsele ait.Farklı görseller için farklı görseller kullanmak gerekir.
+Buradaki koordinatlar bu gÃ¶rsele ait.FarklÄ± gÃ¶rseller iÃ§in farklÄ± gÃ¶rseller kullanmak gerekir.
 
-Bu yüzden biz burada birkaç parametre aldık ve cv2.grabCut kullandık.
+Bu yÃ¼zden biz burada birkaÃ§ parametre aldÄ±k ve cv2.grabCut kullandÄ±k.
 
-Önce giriş görüntüsü, ardından maske, sonra ana nesnemiz için dikdörtgen, arka plan modeli, ön plan modeli, çalıştırılacak yineleme miktarı ve hangi modu kullandığımızı belirtiyoruz.
+Ã–nce giriÅŸ gÃ¶rÃ¼ntÃ¼sÃ¼, ardÄ±ndan maske, sonra ana nesnemiz iÃ§in dikdÃ¶rtgen, arka plan modeli, Ã¶n plan modeli, Ã§alÄ±ÅŸtÄ±rÄ±lacak yineleme miktarÄ± ve hangi modu kullandÄ±ÄŸÄ±mÄ±zÄ± belirtiyoruz.
