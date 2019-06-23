@@ -1,6 +1,6 @@
 # Goruntu İşleme Teknikleri
 
-##OpenCV kullanarak Python üzerinde Temel Görüntü işleme Tekniklerinin Uygulanması
+#OpenCV kullanarak Python üzerinde Temel Görüntü işleme Tekniklerinin Uygulanması
 
 1-Görüntü üzerinde MOG filtresinin uygulanması
 
