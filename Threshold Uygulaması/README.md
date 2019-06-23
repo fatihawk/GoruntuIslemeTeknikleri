@@ -20,3 +20,21 @@ Kullanılan işlev cv2.threshold'dır.
 Üçüncü argüman, piksel değeri eşik değerden daha büyükse (bazen daha azsa) verilecek değeri temsil eden maxVal'dir.
 
 OpenCV farklı eşikleme stilleri sağlar ve fonksiyonun dördüncü parametresi tarafından karar verilir. 
+
+Şablon:
+
+![alt text](https://github.com/fatihawk/GoruntuIslemeTeknikleri/blob/master/Threshold%20Uygulamas%C4%B1/%C5%9Eablon.jpg)
+
+Görüntünün gri tonlamalı hale çevirilmesi:
+
+![alt text](https://github.com/fatihawk/GoruntuIslemeTeknikleri/blob/master/Threshold%20Uygulamas%C4%B1/Baslangic.png)
+
+Binary Threshold:
+
+![alt text](https://github.com/fatihawk/GoruntuIslemeTeknikleri/blob/master/Threshold%20Uygulamas%C4%B1/Binary%20Threshold.png)
+
+Threshold:
+
+![alt text](https://github.com/fatihawk/GoruntuIslemeTeknikleri/blob/master/Threshold%20Uygulamas%C4%B1/Threshold.png)
+
+
