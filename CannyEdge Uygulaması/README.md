@@ -1,4 +1,4 @@
-#CannyEdge Uygulaması
+## Canny Edge Uygulaması
 
 Canny kenar dedektörü, görüntülerdeki çok çeşitli kenarları algılamak için çok aşamalı bir algoritma kullanan bir kenar algılama operatörüdür.
 
