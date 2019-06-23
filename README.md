@@ -2,7 +2,7 @@
 
 OpenCV kullanarak Python üzerinde Temel Görüntü işleme Tekniklerinin Uygulanması
 
-1. Görüntü üzerinde MOG filtresinin uygulanması
+[1. Görüntü üzerinde MOG filtresinin uygulanması](https://github.com/fatihawk/GoruntuIslemeTeknikleri/tree/master/G%C3%B6r%C3%BCnt%C3%BC%20%C3%BCzerinde%20MOG%20filtresinin%20uygulanmas%C4%B1)
 
 Gaussianların Karışımı( Mixture of Gaussians=MOG), statik kameralardan hareketli cisimleri saptamak için arkaplan modellemesi için yaygın olarak kullanılan bir yaklaşımdır.
 
