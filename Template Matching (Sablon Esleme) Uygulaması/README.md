@@ -15,3 +15,14 @@ Burada önemli olan eşleştirmek istediğimiz nesnenin şablonda birden fazla v
 Ben bu uygulamada OpenCV'nin "cv2.matchTemplate()" fonksiyonunu kullanarak eşleştirme yaptım.
 
 Burada Threshold değerini değiştirerek eşleşme doğruluğunu kontrol edebiliriz.
+
+Şablon:
+
+![alt text](https://github.com/fatihawk/GoruntuIslemeTeknikleri/blob/master/Template%20Matching%20(Sablon%20Esleme)%20Uygulamas%C4%B1/Sablon.jpg)
+
+Eşleştirilecek görsel:
+![alt text](https://github.com/fatihawk/GoruntuIslemeTeknikleri/blob/master/Template%20Matching%20(Sablon%20Esleme)%20Uygulamas%C4%B1/Eslestirilecek_gorsel.jpg)
+
+Sonuç:
+![alt text](https://github.com/fatihawk/GoruntuIslemeTeknikleri/blob/master/Template%20Matching%20(Sablon%20Esleme)%20Uygulamas%C4%B1/Sonuc.png)
+
