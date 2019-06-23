@@ -11,3 +11,5 @@ Burada, şablon resmimiz, şablonda arayacağımız resimden biraz daha küçük
 Bu uygulamada bir ""brute force" eşleştirme şekli kullanacağız. Her iki resimdeki tüm özellikleri bulacağız. Sonra bu özellikleri eşleştiriyoruz. Daha sonra istediğimiz kadar çekip çıkarabiliriz. Yine de dikkatli olmakta fayda var çünkü 500 eşleşme söylersek, birçok yanlış elde edebiliriz.
 
 Burada eşleştirme işlemini OpenCV'nin "cv2.drawMatches()"fonksiyonunu kullanarak gerçekleştirdim.
+
+![alt text](https://github.com/fatihawk/GoruntuIslemeTeknikleri/blob/master/%C3%96zellik%20E%C5%9Fle%C5%9Ftirme(Homography)/Sonuc.png)
