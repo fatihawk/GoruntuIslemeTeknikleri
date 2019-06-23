@@ -1,5 +1,7 @@
-Yeşil renkli nesne algılama uygulaması
+## YeÅŸil renkli nesne algÄ±lama uygulamasÄ±
 
-Bilgisayarla görme tekniklerini kullanarak yeşil renkli nesneleri takip eden bir uygulama.
+Bilgisayarla gÃ¶rme tekniklerini kullanarak yeÅŸil renkli nesneleri takip eden bir uygulama.
 
-Bu uygulamayı yaparken çeşitli github projelerinden ve blog yazılarından faydalandım.
+Bu uygulamayÄ± yaparken Ã§eÅŸitli github projelerinden ve blog yazÄ±larÄ±ndan faydalandÄ±m.
+
+![alt text](https://github.com/fatihawk/GoruntuIslemeTeknikleri/blob/master/Ye%C5%9Fil%20renkli%20nesne%20alg%C4%B1lama%20uygulmas%C4%B1/sonuc.png)
