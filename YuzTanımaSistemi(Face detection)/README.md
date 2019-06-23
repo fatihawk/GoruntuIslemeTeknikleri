@@ -15,3 +15,5 @@ Burada algılama ile ilgileneceğiz. OpenCV zaten yüz, gözler, gülümsemeler 
 Sonrasında görüntüdeki yüzleri buluyoruz. Yüzler bulunursa, algılanan yüzlerin pozisyonlarını Rect (x, y, w, h) olarak döndürür. Bu konumlara ulaştıktan sonra, yüz için bir ROI oluşturabilir ve bu ROI'ye göz algılama uygulayabiliriz.
 
 Burada yapılan uygulamada önceden kaydedilmiş bir görüntü kullanılmadı.Webcam kullanarak anlık yüz ve göz tanıma işlemi yapıldı.Dolayısıyla hassasiyeti belirleyen çok fazla parametre var.Bunu da dikkate almak gerekir.
+
+![alt text](https://github.com/fatihawk/GoruntuIslemeTeknikleri/blob/master/YuzTan%C4%B1maSistemi(Face%20detection)/sonuc.png)
